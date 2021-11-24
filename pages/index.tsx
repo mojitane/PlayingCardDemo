@@ -7,18 +7,26 @@ import {
 } from '../components/PlayingCard';
 import { Spacer } from '../components/Spacer';
 import { CardPricingList } from '../components/CardPricingList';
+import { styled } from '../config/stitches';
+
+const Text = styled('p', {
+  fontFamily: 'Open Sans',
+  textAlign: 'center',
+});
 
 export default function Demo() {
   return (
     <div>
       <Spacer size="large" />
 
-      <p>
+      <Text>
         Find the code on{' '}
         <a href="https://github.com/mojitane/PlayingCardDemo">github</a> or
         explore on{' '}
         <a href="https://github.dev/mojitane/PlayingCardDemo">github dev</a>.
-      </p>
+      </Text>
+
+      <Spacer />
 
       <PlayingCard>
         <PlayingCardHeader street="green">

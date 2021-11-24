@@ -1,6 +1,6 @@
-import { styled } from "../config/stitches";
+import { styled } from '../config/stitches';
 
-export const PlayingCard = styled('div', {
+export const PlayingCard = styled('article', {
   width: '16rem',
   padding: '0.5rem',
   margin: '0 auto',
@@ -17,7 +17,7 @@ export const PlayingCard = styled('div', {
   7.5px 12.7px 17.1px -2.2px hsl($$shadowColor / 0.57)`,
 });
 
-export const PlayingCardHeader = styled('div', {
+export const PlayingCardHeader = styled('header', {
   padding: '0.5rem',
   border: '1px solid black',
   textAlign: 'center',
@@ -45,12 +45,12 @@ export const PlayingCardHeader = styled('div', {
   },
 });
 
-export const PlayingCardHeaderTitle = styled('div', {
+export const PlayingCardHeaderTitle = styled('h1', {
   fontWeight: 800,
   fontSize: '1.2rem',
 });
 
-export const PlayingCardHeaderSubline = styled('div', {
+export const PlayingCardHeaderSubline = styled('p', {
   fontWeight: 400,
   fontSize: '0.8rem',
   marginBottom: '0.5rem',
