@@ -25,6 +25,9 @@ export default function Demo() {
         explore on{' '}
         <a href="https://github.dev/mojitane/PlayingCardDemo">github dev</a>.
       </Text>
+      <Text>
+        <a href="https://twitter.com/mojitane">@mojitane</a>
+      </Text>
 
       <Spacer />
 
@@ -66,10 +69,6 @@ export default function Demo() {
       </PlayingCard>
 
       <Spacer size="large" />
-
-      <Text>
-        <a href="https://twitter.com/mojitane">@mojitane</a>
-      </Text>
     </div>
   );
 }
