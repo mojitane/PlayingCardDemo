@@ -13,6 +13,13 @@ export default function Demo() {
     <div>
       <Spacer size="large" />
 
+      <p>
+        Find the code on{' '}
+        <a href="https://github.com/mojitane/PlayingCardDemo">github</a> or
+        explore on{' '}
+        <a href="https://github.dev/mojitane/PlayingCardDemo">github dev</a>.
+      </p>
+
       <PlayingCard>
         <PlayingCardHeader street="green">
           <PlayingCardHeaderSubline>Title Deed</PlayingCardHeaderSubline>
