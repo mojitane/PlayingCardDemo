@@ -40,7 +40,7 @@ export default function Demo() {
       <Spacer size="large" />
 
       <PlayingCard>
-        <PlayingCardHeader street="orange">
+        <PlayingCardHeader street="green">
           <PlayingCardHeaderSubline>Title Deed</PlayingCardHeaderSubline>
           <PlayingCardHeaderTitle>Obere Donaustraße</PlayingCardHeaderTitle>
         </PlayingCardHeader>
@@ -49,6 +49,8 @@ export default function Demo() {
 
         <CardPricingList />
       </PlayingCard>
+
+      <Spacer size="large" />
     </div>
   );
 }
