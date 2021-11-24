@@ -1,3 +1,1 @@
-# nextjs-pzownm
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-pzownm)
+# Demo Stitches Project for WeAreDevelopers JavaScript Congress 2021
