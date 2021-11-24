@@ -40,7 +40,7 @@ export default function Demo() {
       <Spacer size="large" />
 
       <PlayingCard>
-        <PlayingCardHeader street="green">
+        <PlayingCardHeader street="red">
           <PlayingCardHeaderSubline>Title Deed</PlayingCardHeaderSubline>
           <PlayingCardHeaderTitle>Obere Donaustraße</PlayingCardHeaderTitle>
         </PlayingCardHeader>
