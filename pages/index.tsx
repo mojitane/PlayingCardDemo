@@ -67,7 +67,9 @@ export default function Demo() {
 
       <Spacer size="large" />
 
-      <a href="https://twitter.com/mojitane">@mojitane</a>
+      <Text>
+        <a href="https://twitter.com/mojitane">@mojitane</a>
+      </Text>
     </div>
   );
 }
