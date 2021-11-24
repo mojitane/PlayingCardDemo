@@ -51,6 +51,8 @@ export default function Demo() {
       </PlayingCard>
 
       <Spacer size="large" />
+
+      <a href="https://twitter.com/mojitane">@mojitane</a>
     </div>
   );
 }
